@@ -53,10 +53,10 @@ To compile and run the codes, you will need:
 
 Implementations of basic searching techniques.
 
-| Algorithm | Implementation File(s) | Description |
-| :--- | :--- | :--- |
-| **Linear Search** | `Searching/linear_search.c` | Sequential check of every element. |
-| **Binary Search** | `Searching/binary_search.c` | Efficient search on **sorted** arrays. |
+| Algorithm | Description |
+| :--- | :--- |
+| **Linear Search** | Sequential check of every element. |
+| **Binary Search** | Efficient search on **sorted** arrays. |
 
 ## Data Structures
 
@@ -66,27 +66,27 @@ Manual implementations of core data structures using C pointers, structs, and dy
 
 Detailed implementations focusing on pointer manipulation.
 
-  * **Singly Linked List** (`DataStructures/LinkedList/singly_ll.c`)
+  * **Singly Linked List**
       * Basic implementation with functions for insertion, deletion, and traversal.
-  * **Doubly Linked List** (`DataStructures/LinkedList/doubly_ll.c`)
+  * **Doubly Linked List**
       * Nodes contain explicit pointers to both the previous and the next node.
-  * **Circular Linked List** (`DataStructures/LinkedList/circular_ll.c`)
+  * **Circular Linked List**
       * The last node's `next` pointer points back to the head of the list.
 
 ### Trees
 
 Hierarchical structures with focus on node creation and balancing logic.
 
-  * **Binary Tree** (`DataStructures/Tree/binary_tree.c`)
+  * **Binary Tree** 
       * Standard implementation covering insertion and traversal (In-order, Pre-order, Post-order).
-  * **AVL Tree** (`DataStructures/Tree/avl_tree.c`)
+  * **AVL Tree**
       * Implementation of the self-balancing logic using rotations (Left, Right, Left-Right, Right-Left) to maintain balance.
 
 ### Graphs
 
 Representation of networks using matrices and lists.
 
-  * **Graph Implementations** (`DataStructures/Graph/graph.c`)
+  * **Graph Implementations**
       * Includes definitions for **Adjacency Matrix** and **Adjacency List** representations.
   * **Graph Traversal Algorithms** (often included in the main graph file or separate traversal files)
       * **Breadth-First Search (BFS)**
@@ -96,16 +96,16 @@ Representation of networks using matrices and lists.
 
 A comprehensive set of algorithms covering various performance characteristics.
 
-| Category | Algorithm | Implementation File(s) | Time Complexity (Avg) |
+| Category | Algorithm | Time Complexity (Avg) |
 | :--- | :--- | :--- | :--- |
-| **Simple** | **Bubble Sort** | `Sorting/bubble_sort.c` | $O(n^2)$ |
-| | **Selection Sort** | `Sorting/selection_sort.c` | $O(n^2)$ |
-| | **Insertion Sort** | `Sorting/insertion_sort.c` | $O(n^2)$ |
-| **Efficient** | **Merge Sort** | `Sorting/merge_sort.c` | $O(n \log n)$ |
-| | **Quick Sort** | `Sorting/quick_sort.c` | $O(n \log n)$ |
-| | **Heap Sort** | `Sorting/heap_sort.c` | $O(n \log n)$ |
-| **Non-Comparison** | **Counting Sort** | `Sorting/counting_sort.c` | $O(n+k)$ |
-| | **Radix Sort** | `Sorting/radix_sort.c` | $O(nk)$ |
+| **Simple** | **Bubble Sort** | $O(n^2)$ |
+| | **Selection Sort** | $O(n^2)$ |
+| | **Insertion Sort** | $O(n^2)$ |
+| **Efficient** | **Merge Sort** | $O(n \log n)$ |
+| | **Quick Sort** | $O(n \log n)$ |
+| | **Heap Sort** | $O(n \log n)$ |
+| **Non-Comparison** | **Counting Sort** | $O(n+k)$ |
+| | **Radix Sort** | $O(nk)$ |
 
 ## Contributing
 

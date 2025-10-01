@@ -117,4 +117,9 @@ Contributions are welcome\! If you have a more optimized or different implementa
 4.  Open a **Pull Request**.
 
 
- *Created and maintained by [dhruv-doshi](https://github.com/dhruv-dosh)*
+ *For Easy And Optimal DSA Solutions In Java[DSA_Using_Java](https://github.com/dhruv-dosh/LeetCode_Solutions_In_JAVA)* 
+ 
+ *For In Depth Java Notes[Java_Notes](https://github.com/dhruv-dosh/Java_In_Depth_Notes)*
+ 
+
+*Created and maintained by [dhruv-doshi](https://github.com/dhruv-dosh)*

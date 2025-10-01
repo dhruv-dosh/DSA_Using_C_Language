@@ -97,7 +97,7 @@ Representation of networks using matrices and lists.
 A comprehensive set of algorithms covering various performance characteristics.
 
 | Category | Algorithm | Time Complexity (Avg) |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- |
 | **Simple** | **Bubble Sort** | $O(n^2)$ |
 | | **Selection Sort** | $O(n^2)$ |
 | | **Insertion Sort** | $O(n^2)$ |
